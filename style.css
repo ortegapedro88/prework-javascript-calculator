@@ -1,0 +1,42 @@
+#container{
+    width: 440px;
+    height: 560px;
+    background-color: brown;
+    border: 1px solid black ;
+}
+
+
+#botones {
+    width: 400px;
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        margin: 20px;
+}
+
+#botones button{
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+   
+}
+
+#visor{
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+#visor span{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+    font-size: 50px;
+}
